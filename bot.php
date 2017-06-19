@@ -1,5 +1,5 @@
 <?php
-require_once('./line_class.php');
+require_once('./line.php');
 $channelAccessToken = 'i2g1ajRXqBIieiy1V0dx2xltyT73roFSiDKoHM4BeUKgd+a4Ik/P+Vp6iON18XQPeWJVRexzGBa6+zijuhSJHZni3cEzafMlihthHrnrpMe5UrNOPAFs7Nsw9mQ/DVtfpns3zVmMc14l8T10LWJn4wdB04t89/1O/w1cDnyilFU=';
 $channelSecret = 'c5e8a89066b2822d0815d020ab58e6f5';
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
